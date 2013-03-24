@@ -11,8 +11,9 @@
 		B607F69816FE5C8200E0563D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B607F69616FE5C8200E0563D /* InfoPlist.strings */; };
 		B607F69A16FE5C8200E0563D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B607F69916FE5C8200E0563D /* main.m */; };
 		B607F69E16FE5C8200E0563D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B607F69C16FE5C8200E0563D /* Credits.rtf */; };
-		B607F6A116FE5C8200E0563D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B607F6A016FE5C8200E0563D /* AppDelegate.m */; };
+		B607F6A116FE5C8200E0563D /* mainapp.m in Sources */ = {isa = PBXBuildFile; fileRef = B607F6A016FE5C8200E0563D /* mainapp.m */; };
 		B607F6A416FE5C8200E0563D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B607F6A216FE5C8200E0563D /* MainMenu.xib */; };
+		B607F6AD16FE66C300E0563D /* ricon.png in Resources */ = {isa = PBXBuildFile; fileRef = B607F6AC16FE66C200E0563D /* ricon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +27,10 @@
 		B607F69916FE5C8200E0563D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B607F69B16FE5C8200E0563D /* FirstApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstApp-Prefix.pch"; sourceTree = "<group>"; };
 		B607F69D16FE5C8200E0563D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B607F69F16FE5C8200E0563D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B607F6A016FE5C8200E0563D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B607F69F16FE5C8200E0563D /* mainapp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainapp.h; sourceTree = "<group>"; };
+		B607F6A016FE5C8200E0563D /* mainapp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainapp.m; sourceTree = "<group>"; };
 		B607F6A316FE5C8200E0563D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B607F6AC16FE66C200E0563D /* ricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ricon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		B607F68116FE5C8200E0563D = {
 			isa = PBXGroup;
 			children = (
+				B607F6AC16FE66C200E0563D /* ricon.png */,
 				B607F69316FE5C8200E0563D /* FirstApp */,
 				B607F68C16FE5C8200E0563D /* Frameworks */,
 				B607F68B16FE5C8200E0563D /* Products */,
@@ -82,8 +85,8 @@
 		B607F69316FE5C8200E0563D /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				B607F69F16FE5C8200E0563D /* AppDelegate.h */,
-				B607F6A016FE5C8200E0563D /* AppDelegate.m */,
+				B607F69F16FE5C8200E0563D /* mainapp.h */,
+				B607F6A016FE5C8200E0563D /* mainapp.m */,
 				B607F6A216FE5C8200E0563D /* MainMenu.xib */,
 				B607F69416FE5C8200E0563D /* Supporting Files */,
 			);
@@ -156,6 +159,7 @@
 				B607F69816FE5C8200E0563D /* InfoPlist.strings in Resources */,
 				B607F69E16FE5C8200E0563D /* Credits.rtf in Resources */,
 				B607F6A416FE5C8200E0563D /* MainMenu.xib in Resources */,
+				B607F6AD16FE66C300E0563D /* ricon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B607F69A16FE5C8200E0563D /* main.m in Sources */,
-				B607F6A116FE5C8200E0563D /* AppDelegate.m in Sources */,
+				B607F6A116FE5C8200E0563D /* mainapp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
